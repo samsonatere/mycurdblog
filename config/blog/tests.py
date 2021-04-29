@@ -55,7 +55,7 @@ class BlogTests(TestCase):
             'title': 'Updated title',
             'body': 'Updated text',
             })
-            self.assertEqual(response.status_code, 302)
+        self.assertEqual(response.status_code, 302)
             
     def test_post_delete_view(self):
         response = self.client.post(
