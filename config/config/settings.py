@@ -26,9 +26,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '-79mx)us65b8z-j9y7qh4d13gvigm$6fphym@-!qd*k(p6x&*l'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['.herokuapp.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['peaceful-badlands-00184.herokuapp.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
