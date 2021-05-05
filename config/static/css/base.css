@@ -1,6 +1,4 @@
-header h1 a {
-    color: blue;
-    }
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
@@ -11,7 +9,7 @@ header {
     display: flex;
 }
 header h1 a {
-    color: blue;
+    color: red;
     text-decoration: none;
 }
 .nav-left {
